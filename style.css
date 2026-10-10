@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial;
+    background-color: lightgray;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: lightgray;
+}
+
+input {
+    margin: 3px;
+}
+
+button {
+    padding: 5px;
+}

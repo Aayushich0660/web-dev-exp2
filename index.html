@@ -1,0 +1,118 @@
+
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+        <h2>Portfolio</h2>
+
+        <form>
+            <table cellpadding="5">
+
+                <tr>
+                    <td><b>Name:</b></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Father's Name:</b></td>
+                    <td><input type="text" name="father"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Mother's Name:</b></td>
+                    <td><input type="text" name="mother"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Country:</b></td>
+                    <td>
+                        <select name="country">
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                            <option>Canada</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>DOB:</b></td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Gender:</b></td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female
+                    </td>
+                </tr>
+
+            </table>
+
+            <h3>Education Qualification</h3>
+
+            <table border="1" cellpadding="5">
+
+                <tr>
+                    <th>S.No</th>
+                    <th>Std</th>
+                    <th>Board / University</th>
+                    <th>Passing Year</th>
+                    <th>Percentage</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>10th</td>
+                    <td>CBSE</td>
+                    <td><input type="number" placeholder="Year"></td>
+                    <td><input type="number" placeholder="%"></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>12th</td>
+                    <td>CBSE</td>
+                    <td><input type="number" placeholder="Year"></td>
+                    <td><input type="number" placeholder="%"></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>B.Tech</td>
+                    <td>University</td>
+                    <td><input type="number" placeholder="Year"></td>
+                    <td><input type="number" placeholder="%"></td>
+                </tr>
+
+            </table>
+
+            <br>
+
+            <b>Selected Course:</b>
+            <input type="checkbox" name="course" value="BTech"> B.Tech
+            <input type="checkbox" name="course" value="MTech"> M.Tech
+
+            <br><br>
+
+            <b>Declaration:</b>
+            <input type="checkbox" name="declaration">
+            I declare that the information given above is true.
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </center>
+
+</body>
+</html>
