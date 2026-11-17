@@ -4,9 +4,9 @@ background: #f1f4fa; padding:
 15px; color: #333;
 }
 form {
-background: white; maxwidth: 850px; margin: auto;
+background: white; max-width: 850px; margin: auto;
 padding: 25px;
-border: 1px solid #ddd; borderradius: 8px;
+border: 1px solid #ddd; border-radius: 8px;
 }
 h1 {
 text-align: center; color:
